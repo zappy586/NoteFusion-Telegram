@@ -6,3 +6,4 @@ PyPDF2
 pyTelegramBotAPI
 python-dotenv
 tiktoken
+google-cloud-vision
