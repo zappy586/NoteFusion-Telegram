@@ -7,3 +7,4 @@ pyTelegramBotAPI
 python-dotenv
 tiktoken
 google-cloud-vision
+faiss-cpu
