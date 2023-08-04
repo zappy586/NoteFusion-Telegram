@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 import io
 from datetime import datetime
 from PIL import Image
-import pytesseract
+#import pytesseract
 from pdf2image import convert_from_bytes
 import base64
 from google.cloud import vision
@@ -120,6 +120,7 @@ def handle_document(message):
     process_and_store_pdf(pdf_bytes, pkl_path)
     delete_pdf(pdf_file_path)
     bot.reply_to(message, "PDF file processed. You can now start asking questions.")
+    os.remove(pdf_file_path)
 
 # Handle text messages
 @bot.message_handler(func=lambda message: True)
