@@ -1,9 +1,7 @@
-langchain==0.0.251
-pdf2image==1.16.3
-Pillow==10.0.0
-Pillow==10.0.0
-protobuf==3.20.3
-PyPDF2==3.0.1
-pyTelegramBotAPI==4.12.0
-pyTelegramBotAPI==4.12.0
-python-dotenv==1.0.0
+langchain
+pdf2image
+Pillow
+protobuf
+PyPDF2
+pyTelegramBotAPI
+python-dotenv
